@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  text-align: left;
+  margin-left: 20px;
+}
+a {
+  text-decoration: none;
+}
+.container{
+  width: 1000px;
+  height: 1500px;
+  margin: 30px 60px;
+  background-color: black;
+  display: inline-block;
+}
+.container article:first-child{
+  width: 250px;
+  height: 270px;
+  margin: 40px;
+  background-color: blue;
+  display: inline-block;
+}
+.container article:nth-child(2){
+  width: 250px;
+  height: 270px;
+  margin: 40px;
+  background-color: blue;
+  display: inline-block;
+}
+.container article:nth-child(3){
+  width: 250px;
+  height: 270px;
+  margin: 40px;
+  background-color: blue;
+  display: inline-block;
+}
+.container article:nth-child(4){
+  width:350px;
+  height: 350px;
+  margin: 70px;
+  background-color: yellow;
+  display: inline-block;
+
+}
+.container article:nth-child(5){
+  width:350px;
+  height: 350px;
+  margin:70px;
+  background-color: yellow;
+  display: inline-block;
+}
+.container article:nth-child(6){
+  width: 900px;
+  height: 600px;
+  margin: 0 50px 50px;
+  background-color: red;
+}
+.circle{
+  width: 230px;
+  height: 250px;
+  margin: 10px;
+  background-color:yellow;
+  border-radius: 50%;
+  display: inline-block;
+}
+.circle1{
+  width: 330px;
+  height: 330px;
+  margin: 10px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+}
+.container>article:last-child>nav{
+  width: 250px;
+  height: 500px;
+  margin:30px 20px;
+  background-color: black;
+  display: inline-block;
+}
+.d1{
+  width: 100px;
+  height: 100px;
+  margin: 40px 70px;
+  background-color: yellow;
+}
+.d2{
+  width: 100px;
+  height: 400px;
+  margin: 40px 45px 30px 70px;
+  background-color:  yellow;
+  border-radius: 40% 50%;
+}
+.d3{
+  width: 100px;
+  height: 100px;
+  margin: 40px 70px;
+  background-color: yellow;
+  border-radius: 50%
+}
+.container2{
+  width: 1000px;
+  height: 1500px;
+  margin: 30px 60px;
+  background-color: black;
+  display: inline-block;
+}
+.art1{
+  width: 350px;
+  height: 400px;
+  margin: 50px 70px;
+  background-color: yellow;
+  display: inline-block;
+}
+.art2{
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  background-color: yellow;
+  display: block;
+}
